@@ -18,6 +18,9 @@ public class Main
                 graph[i].add(x);
             }
         }
+	// make sure you already check the given graph have Eulerian circuit present in it.
+	//given code is only print path already given graph is Eulerian  circuit
+        
         
         //--------------------------------------------------------------------
         Stack<Integer> result = new Stack<Integer>();
